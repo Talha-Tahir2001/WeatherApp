@@ -1,0 +1,12 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/WeatherApp/.vs/ProjectEvaluation
+/WeatherApp/.vs/WeatherApp/DesignTimeBuild
+/WeatherApp/.vs/WeatherApp/FileContentIndex
+/WeatherApp/.vs/WeatherApp/v17/.futdcache.v2
+/WeatherApp/.vs/WeatherApp/v17/.suo
+/WeatherApp/.vs/WeatherApp/v17/.wsuo
+/WeatherApp/WeatherApp/obj
