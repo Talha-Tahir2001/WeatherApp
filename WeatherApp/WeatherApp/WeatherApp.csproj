@@ -1,0 +1,168 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\close.png" />
+    <None Remove="Images\cloud - Copy.png" />
+    <None Remove="Images\cloud.png" />
+    <None Remove="Images\cloudy-day - Copy.png" />
+    <None Remove="Images\cloudy-day.png" />
+    <None Remove="Images\dir - Copy.png" />
+    <None Remove="Images\dir.png" />
+    <None Remove="Images\dislike - Copy.png" />
+    <None Remove="Images\dislike.png" />
+    <None Remove="Images\happy - Copy.png" />
+    <None Remove="Images\happy.png" />
+    <None Remove="Images\high-temperature.png" />
+    <None Remove="Images\hurricane - Copy.png" />
+    <None Remove="Images\hurricane.png" />
+    <None Remove="Images\like - Copy.png" />
+    <None Remove="Images\like.png" />
+    <None Remove="Images\low-temperature.png" />
+    <None Remove="Images\minimize.png" />
+    <None Remove="Images\mobile-phone.png" />
+    <None Remove="Images\moonlight - Copy.png" />
+    <None Remove="Images\moonlight.png" />
+    <None Remove="Images\q1 - Copy.jpg" />
+    <None Remove="Images\q1.jpg" />
+    <None Remove="Images\rain - Copy.png" />
+    <None Remove="Images\rain.png" />
+    <None Remove="Images\rainbow - Copy.png" />
+    <None Remove="Images\rainbow.png" />
+    <None Remove="Images\raining - Copy.png" />
+    <None Remove="Images\raining.png" />
+    <None Remove="Images\rainy-day - Copy.png" />
+    <None Remove="Images\rainy-day.png" />
+    <None Remove="Images\rainy-night - Copy.png" />
+    <None Remove="Images\rainy-night.png" />
+    <None Remove="Images\reload - Copy.png" />
+    <None Remove="Images\reload.png" />
+    <None Remove="Images\snow - Copy.png" />
+    <None Remove="Images\snow.png" />
+    <None Remove="Images\sun - Copy.png" />
+    <None Remove="Images\sun.png" />
+    <None Remove="Images\sunset - Copy.png" />
+    <None Remove="Images\sunset.png" />
+    <None Remove="Images\thunder-bolt - Copy.png" />
+    <None Remove="Images\thunder-bolt.png" />
+    <None Remove="Images\thunderstorm - Copy.png" />
+    <None Remove="Images\thunderstorm.png" />
+    <None Remove="Images\tornados - Copy.png" />
+    <None Remove="Images\tornados.png" />
+    <None Remove="Images\transparency - Copy.png" />
+    <None Remove="Images\transparency.png" />
+    <None Remove="Images\weather-app - Copy.png" />
+    <None Remove="Images\weather-app.png" />
+    <None Remove="Images\weather-info - Copy.png" />
+    <None Remove="Images\weather-info.png" />
+    <None Remove="Images\windy - Copy.png" />
+    <None Remove="Images\windy.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\close.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\cloud.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\cloudy-day.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\dir.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\dislike.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\happy.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\high-temperature.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\hurricane - Copy.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\hurricane.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\like.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\low-temperature.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\minimize.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\mobile-phone.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\moonlight.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\q1.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\rain.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\rainbow.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\raining.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\rainy-day.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\rainy-night.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\reload.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\snow.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\sun.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\sunset.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\thunder-bolt.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\thunderstorm.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\tornados.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\transparency.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\weather-app.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\weather-info.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\windy.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+</Project>
